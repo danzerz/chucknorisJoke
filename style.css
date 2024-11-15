@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffcccb; /* Light pastel pink background */
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+  background-image: linear-gradient(135deg, #ff7eb3 25%, #ffcccb 75%);
+}
+
+.container {
+  background-color: #ffe4b5; /* Light warm beige */
+  border: 5px solid #ff6f61; /* Retro coral border */
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  text-align: center;
+  max-width: 100%;
+  width: 800px;
+}
+
+h3 {
+  margin: 0;
+  color: #2e4053; /* Dark muted blue */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  text-shadow: 2px 2px #f3e5f5; /* Subtle shadow */
+}
+
+.joke {
+  font-size: 28px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 600px;
+  color: #000;
+  text-shadow: 1px 1px #ffd700; /* Bright yellow shadow */
+}
+
+.btn {
+  background-color: #ff6f61; /* Coral color */
+  color: #fff;
+  border: 3px solid #ffe4b5; /* Beige border */
+  border-radius: 50px; /* Full-rounded buttons */
+  padding: 14px 40px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px #000;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: #ffd700; /* Bright yellow hover */
+  color: #2e4053;
+}
+
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn:focus {
+  outline: 0;
+  border: 3px dashed #ffcccb; /* Dashed border for focus */
+}
